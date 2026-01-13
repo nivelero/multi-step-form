@@ -17,7 +17,7 @@ export function Footer({ handleGoBack, handleGoForwardStep }: FooterProps) {
         onClick={handleGoBack}
         className={`border-none text-sm text-grey font-medium ${currentStep === 1 ? 'invisible' : 'visible'} sm:text-base`}
       >
-        Go back
+        Back
       </button>
       <button
         onClick={handleGoForwardStep}

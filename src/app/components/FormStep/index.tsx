@@ -4,6 +4,7 @@ import { YourInfo } from "./YourInfo";
 import { Plans } from "./Plans";
 import { AddOns } from "./AddOns";
 import { Summary } from "./Summary";
+import { Page1Handler } from "./Page1";
 
 const steps = [
   {
@@ -20,6 +21,10 @@ const steps = [
   },
   {
     step: 4,
+    component: Page1Handler
+  },  
+  {
+    step: 5,
     component: Summary
   }
 ]
